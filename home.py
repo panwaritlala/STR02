@@ -8,7 +8,6 @@ st.markdown("----")
 
 col1, col2 = st.columns(2)
 
-# เพิ่มข้อความหรือข้อมูลเพิ่มเติมในแต่ละคอลัมน์
 with col1:
     st.image('./pic/263829-qgdtri-1.n.jpg')
 
