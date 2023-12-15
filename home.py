@@ -10,10 +10,10 @@ col1, col2 = st.columns(2)
 
 # เพิ่มข้อความหรือข้อมูลเพิ่มเติมในแต่ละคอลัมน์
 with col1:
-    st.image('./pic/263829-qgdtri-1.n.jpg', width=200)
+    st.image('./pic/263829-qgdtri-1.n.jpg')
 
 with col2:
-    st.image('./pic/unnamed.jpg', width=200)
+    st.image('./pic/unnamed.jpg')
 html_1 = """
 <div style="background-color:#52BE80;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
 <center><h5>สถิติข้อมูลดอกไม้</h5></center>
