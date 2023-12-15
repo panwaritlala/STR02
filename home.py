@@ -1,5 +1,5 @@
 import streamlit as st
-import jsone
+import json
 from streamlit_lottie import st_lottie
 
 st.header("Star")
