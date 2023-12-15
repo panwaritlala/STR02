@@ -1,6 +1,9 @@
 import streamlit as st
+import jsone
+from streamlit_lottie import st_lottie
 
 st.header("Star")
+st.balloons()
 st.title('การทดสอบเขียนเว็บด้วย Python')
 st.header('Panwarit Suriwan')
 st.subheader('สาขาวิชาเทคโนโลยีสารสนเทศ')
@@ -69,14 +72,14 @@ if st.button("ทำนายผล"):
    out=Knn_model.predict(x_input)
 
    if out[0]=="Setosa":
-      st.image("./pic/แจกัน2.jpg")
-     # st.header("Setosa")
+      #st.image("./pic/แจกัน2.jpg")
+      st.header("Setosa")
    elif out[0]=="Versicolor":
-      st.image("./pic/644230061_wine_glass_reference.jpg")
-      #st.header("Versicolor")
+      #st.image("./pic/644230061_wine_glass_reference.jpg")
+      st.header("Versicolor")
    else:
-      st.image("./pic/644230061_flag_sim.jpg")  
-      #st.header("Verginiga")
+      #st.image("./pic/644230061_flag_sim.jpg")  
+      st.header("Verginiga")
    st.button("ไม่ทำนายผล")
 else :
     st.button("ไม่ทำนายผล")
